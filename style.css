@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    
+    font-family: "poppins";
+}
+
+.webgl {
+    overflow-x: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+nav {
+    color: #f2f2f2;
+    z-index: 2;
+    position: relative;
+    padding: 4rem 8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f2f2f2;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+    
+}
+nav ul li {
+    cursor: pointer;
+}
+
+.title {
+    color: #f2f2f2;
+    z-index: 2;
+    position: absolute;
+    font-size: 3rem;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -80%);
+}
+
+div {
+    z-index: 3;
+}
